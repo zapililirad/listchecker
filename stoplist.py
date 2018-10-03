@@ -2,8 +2,8 @@
 
 import rstr, requests, csv
 
-proxies = {'http': 'http://sbnix1:12345678@proxy.roseurobank.ru:3128/',
-           'https': 'https://sbnix1:12345678@proxy.roseurobank.ru:3128/'}
+proxies = {'http': '',
+           'https': ''}
 
 def check_site(url):
     try:
